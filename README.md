@@ -1,0 +1,2 @@
+# Python_code
+我自己初学python时的一些代码，包括python里面最简单的知识
