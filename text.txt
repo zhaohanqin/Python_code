@@ -1,2 +1,13 @@
 The Frist：
 添加一个text文本文件，测试一下Sourcetree是否可以将数据push到远程仓库。
+
+
+Sourcetree总是推送失败的解决方法：
+解决方法（二）：切换为 Git 自带的 OpenSSH（推荐）
+如果你不想每次都打开 Pageant 或嫌麻烦，可以切换 Sourcetree 的 SSH 模式：
+打开 Sourcetree 设置：
+复制
+编辑
+工具 → 选项 → Git → SSH 客户端
+将 SSH 客户端 从 PuTTY / Plink 改为 OpenSSH
+保存设置后，确保你的 ~/.ssh/id_rsa 是有效的（用 ssh -T git@github.com 测试）
